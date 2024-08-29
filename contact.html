@@ -3,25 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Contact Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #F6E96B;
+      background-color: #ECDFCC;
+      font-family: "Popins", sans-serif;
+      color: white;
+      text-decoration: none;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .contact-container {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 500px;
+      width: 500px;
+      border-radius: 10%;
+      background-color: #FF8343;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+    }
+    .linkedin {
+      text-decoration: none;
+      color: white;
+    }
+    .home-button {
+      display: inline-block;
+      background-color: #96CEB4;
+      text-decoration: none;
+      padding: 5px;
+      font-weight: 400;
+      font-size: 12pt;
+    }
+    .home-button:hover {
+      color: darkorchid;
+      font-weight: 700;
     }
   </style>
 </head>
 <body>
   <div>
-    <h1>Contact Us</h1>
-    <p>Tel: +91 7310743973</p>
-    <p>Email: tashukumar232@gmail.com</p>
-    <p>Address:</p>
-    <p>
-      73, Sanjay Gandhi Colony<br />
-      Roorkee, Haridwar (Uttarakhand)<br />
-      India <br />
-    </p>
-  </div>  
+    <a class="home-button" href="./index.html">Home</a>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="contact-container">
+      <h1>Contact Us</h1>
+      <p>Tel: +91 7310743973</p>
+      <p>Email: tashukumar232@gmail.com</p>
+      <a class="linkedin" href="https://www.linkedin.com/in/tashu-kumar-140206305/">Linkedin</a>
+    </div> 
+  </div>
 </body>
 </html>
 
