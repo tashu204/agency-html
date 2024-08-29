@@ -30,6 +30,20 @@
   border-radius: 10%;
 }
 
+
+.home-button {
+  display: inline-block;
+  background-color: #96CEB4;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 12pt;
+}
+.home-button:hover {
+  color: darkorchid;
+  font-weight: 700;
+}
+
 @media (max-width: 600px) {
   .container {
     display: flex;
