@@ -47,19 +47,49 @@
       font-weight: 400;
       font-size: 12pt;
     }
+
     .home-button:hover {
       color: darkorchid;
       font-weight: 700;
     }
+
+    .home {
+      position: fixed;
+    }
+
+    @media (max-width: 600px) {
+    .container {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .contact-container {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 300px;
+      height: 300px;
+      border-radius: 5%;
+      background-color: #FF8343;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+    }
+    }
   </style>
 </head>
 <body>
-  <div>
+  
+  <div class="home">
     <a class="home-button" href="./index.html">Home</a>
+    <hr>
   </div>
-  <hr>
   <div class="container">
-    <div class="contact-container">
+     <div class="contact-container">
       <h1>Contact Us</h1>
       <p>Tel: +91 7310743973</p>
       <p>Email: tashukumar232@gmail.com</p>
@@ -68,4 +98,3 @@
   </div>
 </body>
 </html>
-
