@@ -44,6 +44,10 @@
   font-weight: 700;
 }
 
+.home {
+  position: fixed;
+}
+
 @media (max-width: 600px) {
   .container {
     display: flex;
